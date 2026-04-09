@@ -1,5 +1,8 @@
 [package]
 name = "cuda-neural-compiler"
-version = "0.1.0"
+version = "0.2.0"
 edition = "2021"
-description = "Neural compiler — weight quantization, METL binary generation, layer scheduling"
+description = "Weight quantization and METL binary — uses cuda-equipment"
+
+[dependencies]
+# cuda-equipment = { path = "../cuda-equipment" }
